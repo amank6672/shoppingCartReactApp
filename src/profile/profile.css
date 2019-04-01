@@ -1,0 +1,57 @@
+.profile .overlay {
+    width: 100%;
+    height: 330px;
+    overflow: hidden;
+}
+
+.profile .overlay img {
+    width: 100%;
+}
+
+.profile .user-detail {
+    position: relative;
+    top: -100px;
+}
+
+.profile .user-detail .user-profile-photo {
+    height: 200px;
+    width: 200px;
+    border: 6px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.profile .user-detail .user-profile-photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.profile .user-detail .user {
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+}
+
+.profile .user-detail .user .name {
+    font-size: 32px;
+    line-height: 28px;
+    margin: 10px 0px 10px 20px;
+}
+.profile .user-detail .user .name i{
+    font-size: 20px;
+}
+.profile .user-detail .user .username {
+    font-size: 16px;
+    line-height: 10px;
+    text-transform: lowercase;
+    margin: 12px 0px 10px 20px;
+}
+.card-body .form-group, .user .form-group{
+    margin-bottom: 10px;
+}
+.profile .user-detail .user .name i{
+    font-size: 20px;
+}
+.profile .address .card-header i{
+    font-size: 36px;
+}
